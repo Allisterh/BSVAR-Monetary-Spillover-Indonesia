@@ -167,7 +167,7 @@ Jika Anda memakai kode atau hasil ini, mohon sitasi:
 ```bibtex
 @thesis{ismail2026bsvar,
   author = {Ismail, Syafri},
-  title  = {Spillover Guncangan Moneter Murni dan Informasi Bank Sentral Amerika Serikat terhadap Perekonomian Indonesia},
+  title  = {Spillover Guncangan Moneter Murni dan Informasi Bank Sentral Amerika Serikat Terhadap Perekonomian Indonesia},
   school = {Universitas Andalas},
   year   = {2026},
   type   = {Skripsi},
