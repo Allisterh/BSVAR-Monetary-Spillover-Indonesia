@@ -87,7 +87,7 @@ Data domestik dipertahankan dalam bentuk level atau log-level agar informasi jan
 | Sampel posterior akhir | 4.000 *draws* |
 | Eksogenitas blok | Variabel eksternal tidak dipengaruhi variabel Indonesia (asumsi *small open economy*) |
 | Diagnostik | *Trace plot*, autokorelasi sampel, kestabilan respons impuls |
-| Perangkat lunak | MATLAB [ISI: versi dan toolbox] |
+| Perangkat lunak | MATLAB |
 
 ### 3.4 Identifikasi guncangan
 
