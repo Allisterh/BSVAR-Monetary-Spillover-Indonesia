@@ -152,7 +152,7 @@ Dibandingkan paket replikasi aslinya:
 
 - **Cakupan variabel domestik terbatas.** Model belum memuat nilai tukar rupiah, VIX, arus modal asing, cadangan devisa, atau harga komoditas. Saluran-saluran ini bisa penting bagi Indonesia.
 - **Satu metode dan satu strategi identifikasi.** Hasil belum diuji dengan estimasi alternatif seperti TVP-VAR atau *Local Projection*.
-- **Hanya Indonesia.** Belum ada perbandingan dengan negara berkembang lain, sehingga belum jelas apakah pola ini terjadi di Indonesia.
+- **Hanya Indonesia.** Belum ada perbandingan dengan negara berkembang lain, sehingga belum jelas apakah pola ini hanya terjadi di Indonesia.
 - **Kontribusi FEVD bersifat sebagian.** Total 8,5–14,5% adalah kontribusi dua guncangan The Fed yang diidentifikasi, bukan seluruh pengaruh eksternal, dan sisanya tidak bisa langsung disebut berasal dari faktor domestik saja.
 - **Ketidakpastian posterior.** Beberapa respons (terutama BI Rate, IPI, IHK pada guncangan moneter murni, serta yield awal pada guncangan informasi) memiliki interval kredibel yang mencakup nol.
 
