@@ -81,7 +81,7 @@ Data domestik dipertahankan dalam bentuk level atau log-level agar informasi jan
 | Urutan variabel domestik | BI Rate → Yield → IHSG → IPI → IHK |
 | Lag | 12 bulan (`p = 12`) |
 | Prior | *Independent Normal–Inverted Wishart* dengan penyusutan bergaya Minnesota/Litterman |
-| Hiperparameter prior | *Tightness:* 0,1, *Decay:* 1, *Exogenous Standard Deviation:* 100.000, *Sigma AR Lags:* 12 |
+| Hiperparameter prior | *Tightness:* `0,1`, *Decay:* `1`, *Exogenous Standard Deviation:* `100.000`, *Sigma AR Lags:* `12` |
 | Estimasi | Gibbs sampler, 20.000 iterasi |
 | *Burn-in* dan *thinning* | 4.000 iterasi dibuang, lalu setiap iterasi ke-4 disimpan |
 | Sampel posterior akhir | 4.000 *draws* |
