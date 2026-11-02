@@ -65,11 +65,11 @@ Visualisasi:
 |---|---|---|---|---|
 | `FFF` | Federal Funds Futures | Agregasi kejutan intraday di sekitar FOMC | Persentase (%) | Jarociński |
 | `SP500` | S&P 500 | Agregasi perubahan intraday di sekitar FOMC | Persentase (%) | Jarociński |
-| `BI Rate` | Suku bunga kebijakan BI | BI Rate / BI 7-Day Reverse Repo Rate | Persentase (level) | BI |
-| `Yield` | Imbal hasil SUN tenor 1 tahun | Imbal hasil obligasi pemerintah | Persentase (level) | [ISI: BI / Investing.com] |
-| `IHSG` | Indeks Harga Saham Gabungan | Indeks bursa saham domestik | Log × 100 | [ISI: Investing.com] |
-| `IPI` | Indeks Produksi Industri | Proksi output riil bulanan | Log × 100 | BPS |
-| `IHK` | Indeks Harga Konsumen | Proksi tingkat harga | Log × 100 | BPS |
+| `BI Rate` | Suku bunga kebijakan BI | BI Rate / BI 7-Day Reverse Repo Rate | Persentase (level) | Bank Indonesia |
+| `Yield` | Imbal hasil SUN tenor 1 tahun | Imbal hasil obligasi pemerintah | Persentase (level) | Investing.com |
+| `IHSG` | Indeks Harga Saham Gabungan | Indeks bursa saham domestik | Log × 100 | Investing.com |
+| `IPI` | Indeks Produksi Industri | Proksi output riil bulanan | Log × 100 | Badan Pusat Statistik |
+| `IHK` | Indeks Harga Konsumen | Proksi tingkat harga | Log × 100 | Badan Pusat Statistik |
 
 Data domestik dipertahankan dalam bentuk level atau log-level agar informasi jangka panjang tidak hilang. Prior Bayesian dipakai untuk mengendalikan risiko overfitting.
 
@@ -81,7 +81,7 @@ Data domestik dipertahankan dalam bentuk level atau log-level agar informasi jan
 | Urutan variabel domestik | BI Rate → Yield → IHSG → IPI → IHK |
 | Lag | 12 bulan (`p = 12`) |
 | Prior | *Independent Normal–Inverted Wishart* dengan penyusutan bergaya Minnesota/Litterman |
-| Hiperparameter prior | [ISI: nilai dari skrip, misalnya tightness, decay, prior untuk konstanta] |
+| Hiperparameter prior | *tightness:* 0,1, decay: 1, *Exogenous Standard Deviation:* 100.000, *Sigma AR Lags:* 12 |
 | Estimasi | Gibbs sampler, 20.000 iterasi |
 | *Burn-in* dan *thinning* | 4.000 iterasi dibuang, lalu setiap iterasi ke-4 disimpan |
 | Sampel posterior akhir | 4.000 *draws* |
@@ -107,10 +107,10 @@ Variabel domestik sengaja tidak dibatasi (pendekatan agnostik), sehingga respons
 
 ```
 .
-├── data/        # [ISI: data gabungan, mis. data_bulanan.csv, plus kamus data]
-├── scripts/     # [ISI: skrip MATLAB, urutan eksekusi di bagian 5]
+├── data/        # data gabungan
+├── scripts/     # skrip MATLAB
 ├── output/      # Grafik IRF, validasi identifikasi, kerangka berpikir, kesimpulan
-├── docs/        # [ISI: dokumen pendukung]
+├── docs/        # dokumen pendukung
 ├── LICENSE
 └── README.md
 ```
