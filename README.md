@@ -139,10 +139,9 @@ Dibandingkan paket replikasi aslinya:
 
 - Kerangka diterapkan pada **ekonomi pasar berkembang kecil dan terbuka (Indonesia)**, bukan ekonomi AS.
 - Model diperluas menjadi **7 variabel endogen** dengan blok internal Indonesia.
-- Ditambahkan **eksogenitas blok** (restriksi nol) sehingga guncangan Indonesia tidak memengaruhi variabel AS.
-- Ditambahkan **restriksi tanda dan nol** pada rotasi blok dengan prior seragam, sesuai algoritma Rubio-Ramirez dkk. dan Arias dkk.
-- Parameter estimasi dan matriks input disesuaikan dengan data Indonesia.
-- Tampilan grafik perbandingan Impulse Response Function
+- Ditambahkan **eksogenitas blok** (restriksi nol) sehingga guncangan Indonesia tidak memengaruhi variabel AS untuk merepresentasikan karakteristik **small open economy**.
+- Tampilan grafik perbandingan Impulse Response Function.
+- Analisis transmisi shock terhadap pasar keuangan dan sektor riil Indonesia.
 
 **Catatan lisensi (© 2020 American Economic Association):** skrip dan perangkat lunak turunan tunduk pada *Modified BSD License*. Basis data turunan dilisensikan di bawah *Creative Commons Attribution 4.0 International*. Lihat berkas [`LICENSE`](LICENSE).
 
