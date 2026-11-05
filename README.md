@@ -103,8 +103,6 @@ Variabel domestik sengaja tidak dibatasi (pendekatan agnostik), sehingga respons
 
 ## 4. Struktur Repositori
 
-> Sesuaikan dengan isi folder yang sebenarnya.
-
 ```
 .
 ├── data/        # data gabungan
